@@ -26,7 +26,7 @@ const startServer=async()=>{
 
     try{
         connectDB(process.env.MONGODB_URL);
-        app.listen(8080, () => console.log('Server has started ion port http://localhost:8080'))
+        app.listen(8080, () => console.log('Server has started ion port https://dall-e-bvhf.onrender.com'))
 
     } catch(error)
     {
